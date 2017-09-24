@@ -10,9 +10,9 @@ module.exports = (sequelize, DataTypes) => {
     parcel_carriers: DataTypes.STRING
   });
 
-  Order.associate = function(models){
-    Order.hasMany(models.product);
-  };
+  // Order.associate = function(models){
+  //   Order.hasMany(models.product);
+  // };
 
   return Order;
 };
